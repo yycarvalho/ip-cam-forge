@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+# SecuriCam - Sistema de Vigilância
 
-## Project info
+Sistema profissional de gerenciamento de câmeras de vigilância e equipamentos de segurança desenvolvido em React/TypeScript.
 
-**URL**: https://lovable.dev/projects/02688ee9-4433-4fde-bb61-1b33eb04dd96
+## 🔐 Login de Acesso
 
-## How can I edit this code?
+**Usuário:** `admin`  
+**Senha:** `admin`
 
-There are several ways of editing your application.
+## 🚀 Funcionalidades
 
-**Use Lovable**
+### ✅ Sistema de Autenticação
+- Login seguro com validação
+- Controle de acesso baseado em usuários
+- Sistema de logs completo
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/02688ee9-4433-4fde-bb61-1b33eb04dd96) and start prompting.
+### 📹 Gerenciamento de Equipamentos
+- Visualização de câmeras com status em tempo real
+- Indicadores visuais de status (online/offline)
+- Controle de analíticos e alarmes
+- Busca e filtros dinâmicos
 
-Changes made via Lovable will be committed automatically to this repo.
+### 👥 Grupos de Câmeras
+- Criação e gerenciamento de grupos
+- Organização visual de equipamentos
+- Contadores de câmeras por grupo
 
-**Use your preferred IDE**
+### ⚙️ Configuração em Lote
+- Detecção de movimento com sensibilidade ajustável
+- Agendamento por dias da semana e horários
+- Cerca analítica e cruzamento de linha
+- Sistema de notificações (email, flash, som, central)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🎯 Editor de Cerca Analítica
+- Editor visual interativo com canvas
+- Suporte a 4 canais por câmera
+- Criação de polígonos por pontos clicáveis
+- Funcionalidades: adicionar, mover e remover pontos
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 👤 Gerenciamento de Usuários
+- Cadastro de usuários com CPF
+- Edição e exclusão de usuários
+- Controle de permissões
 
-Follow these steps:
+### 📊 Sistema de Logs
+- Registro detalhado de todas as ações
+- Filtros por usuário e tipo de ação
+- Exportação para CSV
+- Estatísticas de uso
+
+## 🎨 Design System
+
+- **Cores:** Paleta profissional em tons de azul e cinza
+- **Status:** Indicadores coloridos para diferentes estados
+- **Responsivo:** Interface adaptável a diferentes telas
+- **Acessibilidade:** Componentes otimizados para usabilidade
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Frontend:** React 18 + TypeScript
+- **Styling:** Tailwind CSS + shadcn/ui
+- **Roteamento:** React Router DOM
+- **Estado:** Context API + localStorage
+- **Ícones:** Lucide React
+- **Build:** Vite
+
+## 📱 Como Usar
+
+1. **Login:** Acesse com admin/admin
+2. **Equipamentos:** Visualize e gerencie câmeras na tela principal
+3. **Grupos:** Crie grupos para organizar suas câmeras
+4. **Configuração:** Selecione câmeras e configure detecção em lote
+5. **Cerca Analítica:** Clique com botão direito em uma câmera para editar
+6. **Usuários:** Gerencie usuários do sistema na aba correspondente
+7. **Logs:** Monitore todas as ações realizadas no sistema
+
+## 🔧 Instalação e Desenvolvimento
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone o repositório
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navegue para o diretório
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Instale as dependências
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 📦 Deploy
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Para publicar o projeto:
 
-**Use GitHub Codespaces**
+1. Acesse [Lovable](https://lovable.dev/projects/02688ee9-4433-4fde-bb61-1b33eb04dd96)
+2. Clique em Share → Publish
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Domínio Personalizado
 
-## What technologies are used for this project?
+Para conectar um domínio personalizado:
 
-This project is built with:
+1. Vá em Project > Settings > Domains
+2. Clique em Connect Domain
+3. Siga as instruções de configuração
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/02688ee9-4433-4fde-bb61-1b33eb04dd96) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+[Documentação completa sobre domínios](https://docs.lovable.dev/features/custom-domain#custom-domain)
